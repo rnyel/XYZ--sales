@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Connect to the SQLite database “SALES”
-conn = sqlite3.connect('SALES.db')
+conn = sqlite3.connect('s30_etl_assignment.db')
 curs=conn.cursor()
 
 # SQL query to fetch data
